@@ -15,8 +15,15 @@
   	<listener-class>com.itheima.listener.ServletContextListener</listener-class>
   </listener>-->
   
- 	<!-- 配置ServletRequestListener -->
- 	<listener>
+ 	 <!-- 配置ServletRequestListener -->
+ <!--<listener>
  		<listener-class>com.itheima.listener.ServletRequestListener</listener-class>
+ 	</listener> -->
+ 	
+ 	
+ 	<!-- 配置HttpSessionListener -->
+ 	<listener>
+ 		<listener-class>com.itheima.listener.HttpSessionListener</listener-class>
  	</listener>
+ 	
 </web-app>
