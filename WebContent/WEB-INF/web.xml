@@ -22,8 +22,13 @@
  	
  	
  	<!-- 配置HttpSessionListener -->
- 	<listener>
+ 	<!--  <listener>
  		<listener-class>com.itheima.listener.HttpSessionListener</listener-class>
+ 	</listener>-->
+ 	
+ 	<!-- 配置ServletContextAttr -->
+ 	<listener>
+ 		<listener-class>com.itheima.attr.ServletContextAttrListener</listener-class>
  	</listener>
  	
 </web-app>
