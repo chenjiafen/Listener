@@ -14,5 +14,10 @@
 	<h2>绑定和解绑</h2>
 	<a href="${pageContext.request.contextPath}/bd/bd.jsp">绑定</a><br>
 	<a href="${pageContext.request.contextPath}/bd/undb.jsp">解绑</a>
+	
+	<h2>活化和钝化</h2>
+	<a href="${pageContext.request.contextPath}/act/add.jsp">向session中放入数据</a><br>
+	<a href="${pageContext.request.contextPath}/act/test.jsp">测试活化</a>
+	
 </body>
 </html>
