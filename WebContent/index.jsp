@@ -6,11 +6,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
-<body>
+<body>	
+	<h2>监听对象属性的变化</h2>
 	<a href="${pageContext.request.contextPath}/attr/add.jsp">属性添加</a><br>
 	<a href="${pageContext.request.contextPath}/attr/rem.jsp">属性移除</a><br>
 	<a href="${pageContext.request.contextPath}/attr/rep.jsp">属性替换 </a><br>
-	
-	
+	<h2>绑定和解绑</h2>
+	<a href="${pageContext.request.contextPath}/bd/bd.jsp">绑定</a><br>
+	<a href="${pageContext.request.contextPath}/bd/undb.jsp">解绑</a>
 </body>
 </html>
